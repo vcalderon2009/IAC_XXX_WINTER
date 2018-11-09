@@ -1,6 +1,9 @@
 name: astrophd_tutorial
+
 channels:
   - conda-forge
+  - intel
+
 dependencies:
   - scipy
   - numpy
@@ -9,7 +12,8 @@ dependencies:
   - matplotlib
   - scikit-learn>=0.19
   - h5py
-  - keras>=2.*
+  - keras>=2.
   - tensorflow
+  - pillow
   - pip:
     - git+https://github.com/paris-saclay-cds/ramp-workflow
